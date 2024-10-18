@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang=""en>
+    <head>
+        <meta charset="UTF-8">
+        <meta viewport content="width-device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    <title>HTML basics</title>
+    
+    </head>
+    <body>
+        <header>
+          <nav>
+          <ul>
+            <li href="index.html">HTML</li>
+        <li href="index.css">CSS</li> 
+        </ul>  
+          </nav> 
+          <h1>Welcome to HTML Basics</h1> 
+        <p>Your guide to understanding th structure of a webpage</p>
+        </header>
+        <main>
+            <section>
+                <h2>Container elements div, span, pre, code</h2>
+            
+            <div>This is a <strong>div</strong> element as a container for other elements.</div></section>
+        
+        <p>This is a<span>Span</span> element container used to group text or elements in!</p>
+        <pre>
+            This is a preformated block.
+             it preserves white space and formatting.
+    </pre>
+    <p>
+        here is some <code>inline Code</code> inside a paragraph</p>
+    
+    </section>
+    
+    <section>
+    
+        <h2>Text Formatting b, strong, i, sup, sub</h2>
+    <p><b>This is Bold Text using a b tag</b></p>
+    <p><strong>This is bold text using a strong tag.</strong></p>
+    <p><i>This is itallic text using a i tag.</i></p>
+    <p><sup>This is superscript text using a sup tag.</sup></p>
+    <p><sub>This is sub text using a sub tag.</sub></p>
+    </section>
+
+<section>
+    <h2>List ol, ul, li</h2>
+    <h3>Ordered list</h3>
+    <ol>
+        <li>1st item</li>
+        <li>2nd item</li>
+    </ol>
+    <h3>Unordered list</h3>
+    <ul>
+        <li>1st item</li>
+        <li>2nd item</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Media image, Audio, Video</h2>
+    <h3>image example</h3>
+    <img src="https://via.placeholder.com/150" alt="Placeholder image">
+</section>
+<section>
+    <h3>Audio Example</h3>
+    <audio controls>
+        <source src="assets/example.mp3" type="audio/mpeg">Your browser does not support the audio element
+    </audio>
+</section>
+<section>
+    <h3> video example</h3>
+    <video controls width="320">
+        <source srce="assets/videos/example.mp4" type="video/mp4">
+    Your browser does not support video</video>
+</section>
+
+<section>
+    <h2>Table example</h2>
+    <table border="1">
+        <caption>Sample table</caption>
+        <thead>
+            <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1a</td>
+                <td>1b</td>
+            </tr>
+            <tr>
+                <td>2a</td>
+                <td>2b</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<section>
+    <h2>Links: a</h2>
+    <p>this is an example of a anchor link tag:<a href="https://www.5pence.net" target="_blank"></a></p>
+</section>
+
+<section>
+    <h2>Form Elements</h2>
+    <form action="#" method="post">
+        <label for="text-input">Text input</label>
+            <input type="text" id="text-input" name="text"><br>
+
+            <label for="password-input">Password input</label>
+            <input type="password" id="password-input" name="password"><br>
+
+            <label>Checkbox</label>
+            <input type="checkbpx" id="check1" value="option1"><br>
+           
+            <label>Radio button</label>
+            <input type="radio" id="radio1" value="option1"></label><br>
+
+            <label for="dropdown">Select dropdown</label>
+            <select id="dropdown" name="dropdown">
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+            </select><br>
+        
+        <label for="taxtarea">Textarea:</label>
+    <textarea id="textarea" name="textarea" rows="4" cols=50"></textarea><br>
+
+    <label for="file-input">File input</label>
+    <input type="file" id="file-input" name="file"><br>
+
+    <label for="range">Range input</label>
+    <input type="range" id="Range" name="range" min="0" max="100"><br>
+
+    <label for="number-input">Number input</label>
+    <input type="number" name="number" id="nuber-input"><br>
+
+    <label for="email">Email input</label>
+    <input type="email" name="email" id="email"><br>
+
+    <label for="url>">url input</label>
+    <input type="url" name="url" id="url"><br>
+
+    <label for="date">Date input</label>
+    <input type="date" id="date" name="date"><br>
+
+    <input type="submit" value="submit this form">
+</form>
+</section>
+<section>
+    <h2>Characters and symbols</h2>
+   
+    <p>&lt; < for less  than</p>
+    <p>&gt; for greater than ></p>
+    <p>&copy; for ©</p>
+    </section>
+</main>
+        <footer>
+            <p>&copy; 2024 HTML Basics | Code Institute Course</p>
+        </footer>
+    </body>
+</html>
